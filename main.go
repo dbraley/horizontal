@@ -39,7 +39,7 @@ func main() {
 
 		// If we couldn't format the line, just print it
 		if err != nil {
-			fmt.Printf("!!! %s !!!", string(lineBytes))
+			fmt.Printf("!!! %s !!!\n", string(lineBytes))
 		}
 	}
 }
